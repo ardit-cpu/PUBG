@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <div class="uc">
+            <input type="text" placeholder="Please type your ID">
+            <button>Add</button>
+        </div>
+        <footer>
+            <h1>Warning</h1>
+            <p>There is Chance your acc will be BAN</p>
+        </footer>
+    </head>
+    <div class="at"></div>
+</html>
+<style>
+    html{
+        background-image: url(pubg.jpg);
+        background-size: cover;
+    }
+    .uc{
+        text-align: center;
+        margin-top: 9cm;
+    }
+    .uc input{
+        width: 10cm;
+        height: 40px;
+        background: black;
+        color: white;
+        border: thick;
+    }
+    .uc button{
+        height: 40px;
+        width: 3cm;
+        background: #333666;
+        outline: none;
+        color: white;
+        border: thick;
+        cursor: pointer;
+    }
+    .uc button:hover{
+        background: white;
+        color: black;
+    }
+    @media screen and (max-width: 800px) {
+
+        .uc input{
+            width: 5cm;
+            height: 35px;
+            margin-bottom: 20px;
+        }
+        .uc button {
+            width: 5cm;
+            height: 35px;
+            margin-bottom: 10px;
+        }
+}
+.at{
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    left:0px;
+    box-shadow: 0 0 30px 30px black;
+}
+.at::before{
+    content: "";
+    position: absolute;
+ top: 859px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    left:0px;
+    box-shadow: 0 0 30px 30px black;
+}
+footer{
+    text-align: center;
+    margin-top: 7cm;
+    color: white;
+}
+</style>
